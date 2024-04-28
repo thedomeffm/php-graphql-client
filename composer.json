@@ -1,0 +1,31 @@
+{
+    "name": "thedomeffm/graphql-client",
+    "description": "PHP client library to consume GraphQl APIs",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "TheDomeFfm\\GraphQlClient\\": "src/"
+        }
+    },
+    "require": {
+        "psr/http-client": "^1.0",
+        "php-http/discovery": "^1.17",
+        "psr/http-client-implementation": "*",
+        "psr/http-factory-implementation": "*",
+        "symfony/polyfill-php83": "^1.29"
+    },
+    "require-dev": {
+        "nyholm/psr7": "^1.8",
+        "phpunit/phpunit": "^11.1",
+        "symfony/http-client": "^7.0",
+        "symfony/var-dumper": "^7.0"
+    },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": false
+        },
+        "lock": false,
+        "sort-packages": true
+    }
+}
